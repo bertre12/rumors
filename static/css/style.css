@@ -1,0 +1,76 @@
+body {
+    background: #7A8187;
+}
+
+aside {
+    float: right;
+    position: fixed;
+    right: 0px;
+    background: #9C9290;
+    width:20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #F0F4FC;
+    border-left: 5px solid black;
+}
+
+aside h3 {
+    margin-top: 25px;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside ul li {
+    color: #F0F4FC;
+    display: block;
+    margin-top: 10px;
+    transition: transform 0.6s ease;
+}
+
+aside ul li:hover {
+    color: #32312D;
+    text-decoration: none;
+    transform: scale(1.10);
+}
+
+a {
+    text-decoration: none; /*убрать нижнее подчёркивание*/
+}
+
+main .features {
+    float: left;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
+
+main .features h1 {
+    font-size: 45px
+}
+
+main .features p {
+    max-width: 500px;
+    margin: 20px auto
+}
+
+.alert-warning {
+    float: left;
+    clear: both;
+    width: 600px;
+    margin: 15px 35%;
+    text-align: center;
+}
+
+.btn-light {
+    border: none;
+    background: #7A8187;
+    color: white;
+}
+
+form {
+    margin-left: 35%;
+    width: 500px;
+    margin-top: 50px;
+}
