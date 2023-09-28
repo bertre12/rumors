@@ -1,23 +1,24 @@
-# rumors
+# rumors & Docker
 
 Учебный проект написан в рамках обучающего курса по Django 4 в школе [InnoDom](https://innodom.by/).
 
-### Установка
+### Скачать приложение
 
-#### 1) Создать виртуальное окружение
+```
+git clone git@github.com:bertre12/rumors.gitt
 
-#### 2) Установить зависимости
+```
 
-    pip install -r requirements.txt
+### Собрать Docker-образ
 
-#### 3) Выполнить миграции
+```
+docker build -t rumors .
 
-    python manage.py migrate    
+```
 
-#### 4) Создать суперпользователя
+### Запустить контейнер
 
-    python manage.py createsuperuser
+```
+docker run -p 8000:8000 rumors
 
-### Старт
-
-    python manage.py runserver
+```
