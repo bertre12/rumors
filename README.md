@@ -5,7 +5,7 @@
 ### Скачать приложение
 
 ```
-git clone git@github.com:bertre12/rumors.gitt
+git clone git@github.com:bertre12/rumors.git
 
 ```
 
